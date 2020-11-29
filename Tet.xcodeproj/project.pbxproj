@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10FD1F5220091FD008F671E /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10FD1F4220091FD008F671E /* DataStructures.swift */; };
+		D148E99B2207D41600CE4FBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148E99A2207D41600CE4FBF /* ViewController.swift */; };
+		D1C64DCE21F2151E00136385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C64DCD21F2151E00136385 /* AppDelegate.swift */; };
+		D1C64DD321F2151E00136385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C64DD121F2151E00136385 /* Main.storyboard */; };
+		D1C64DD521F2151F00136385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C64DD421F2151F00136385 /* Assets.xcassets */; };
+		D1C64DD821F2151F00136385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C64DD621F2151F00136385 /* LaunchScreen.storyboard */; };
+		D1C64DE321F2151F00136385 /* TetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C64DE221F2151F00136385 /* TetTests.swift */; };
+		D1C64DEE21F2151F00136385 /* TetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C64DED21F2151F00136385 /* TetUITests.swift */; };
+		D1C64DFC21F2155300136385 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C64DFB21F2155200136385 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1C64DDF21F2151F00136385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C64DC221F2151D00136385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C64DC921F2151D00136385;
+			remoteInfo = Tet;
+		};
+		D1C64DEA21F2151F00136385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C64DC221F2151D00136385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C64DC921F2151D00136385;
+			remoteInfo = Tet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D10FD1F4220091FD008F671E /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		D148E99A2207D41600CE4FBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1C64DCA21F2151E00136385 /* Tet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C64DCD21F2151E00136385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1C64DD221F2151E00136385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1C64DD421F2151F00136385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1C64DD721F2151F00136385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1C64DD921F2151F00136385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C64DDE21F2151F00136385 /* TetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C64DE221F2151F00136385 /* TetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetTests.swift; sourceTree = "<group>"; };
+		D1C64DE421F2151F00136385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C64DE921F2151F00136385 /* TetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C64DED21F2151F00136385 /* TetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetUITests.swift; sourceTree = "<group>"; };
+		D1C64DEF21F2151F00136385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C64DFB21F2155200136385 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C64DC721F2151D00136385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C64DDB21F2151F00136385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C64DE621F2151F00136385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1C64DC121F2151D00136385 = {
+			isa = PBXGroup;
+			children = (
+				D1C64DCC21F2151E00136385 /* Tet */,
+				D1C64DE121F2151F00136385 /* TetTests */,
+				D1C64DEC21F2151F00136385 /* TetUITests */,
+				D1C64DCB21F2151E00136385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1C64DCB21F2151E00136385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1C64DCA21F2151E00136385 /* Tet.app */,
+				D1C64DDE21F2151F00136385 /* TetTests.xctest */,
+				D1C64DE921F2151F00136385 /* TetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1C64DCC21F2151E00136385 /* Tet */ = {
+			isa = PBXGroup;
+			children = (
+				D1C64DCD21F2151E00136385 /* AppDelegate.swift */,
+				D10FD1F4220091FD008F671E /* DataStructures.swift */,
+				D1C64DFB21F2155200136385 /* TableViewController.swift */,
+				D148E99A2207D41600CE4FBF /* ViewController.swift */,
+				D1C64DD421F2151F00136385 /* Assets.xcassets */,
+				D1C64DD121F2151E00136385 /* Main.storyboard */,
+				D1C64DD621F2151F00136385 /* LaunchScreen.storyboard */,
+				D1C64DD921F2151F00136385 /* Info.plist */,
+			);
+			path = Tet;
+			sourceTree = "<group>";
+		};
+		D1C64DE121F2151F00136385 /* TetTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C64DE221F2151F00136385 /* TetTests.swift */,
+				D1C64DE421F2151F00136385 /* Info.plist */,
+			);
+			path = TetTests;
+			sourceTree = "<group>";
+		};
+		D1C64DEC21F2151F00136385 /* TetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C64DED21F2151F00136385 /* TetUITests.swift */,
+				D1C64DEF21F2151F00136385 /* Info.plist */,
+			);
+			path = TetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1C64DC921F2151D00136385 /* Tet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C64DF221F2151F00136385 /* Build configuration list for PBXNativeTarget "Tet" */;
+			buildPhases = (
+				D1C64DC621F2151D00136385 /* Sources */,
+				D1C64DC721F2151D00136385 /* Frameworks */,
+				D1C64DC821F2151D00136385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tet;
+			productName = Tet;
+			productReference = D1C64DCA21F2151E00136385 /* Tet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1C64DDD21F2151F00136385 /* TetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C64DF521F2151F00136385 /* Build configuration list for PBXNativeTarget "TetTests" */;
+			buildPhases = (
+				D1C64DDA21F2151F00136385 /* Sources */,
+				D1C64DDB21F2151F00136385 /* Frameworks */,
+				D1C64DDC21F2151F00136385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C64DE021F2151F00136385 /* PBXTargetDependency */,
+			);
+			name = TetTests;
+			productName = TetTests;
+			productReference = D1C64DDE21F2151F00136385 /* TetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1C64DE821F2151F00136385 /* TetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C64DF821F2151F00136385 /* Build configuration list for PBXNativeTarget "TetUITests" */;
+			buildPhases = (
+				D1C64DE521F2151F00136385 /* Sources */,
+				D1C64DE621F2151F00136385 /* Frameworks */,
+				D1C64DE721F2151F00136385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C64DEB21F2151F00136385 /* PBXTargetDependency */,
+			);
+			name = TetUITests;
+			productName = TetUITests;
+			productReference = D1C64DE921F2151F00136385 /* TetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1C64DC221F2151D00136385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Steven Johns";
+				TargetAttributes = {
+					D1C64DC921F2151D00136385 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D1C64DDD21F2151F00136385 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D1C64DC921F2151D00136385;
+					};
+					D1C64DE821F2151F00136385 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D1C64DC921F2151D00136385;
+					};
+				};
+			};
+			buildConfigurationList = D1C64DC521F2151D00136385 /* Build configuration list for PBXProject "Tet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1C64DC121F2151D00136385;
+			productRefGroup = D1C64DCB21F2151E00136385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1C64DC921F2151D00136385 /* Tet */,
+				D1C64DDD21F2151F00136385 /* TetTests */,
+				D1C64DE821F2151F00136385 /* TetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1C64DC821F2151D00136385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C64DD821F2151F00136385 /* LaunchScreen.storyboard in Resources */,
+				D1C64DD521F2151F00136385 /* Assets.xcassets in Resources */,
+				D1C64DD321F2151E00136385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C64DDC21F2151F00136385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C64DE721F2151F00136385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1C64DC621F2151D00136385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10FD1F5220091FD008F671E /* DataStructures.swift in Sources */,
+				D1C64DFC21F2155300136385 /* TableViewController.swift in Sources */,
+				D148E99B2207D41600CE4FBF /* ViewController.swift in Sources */,
+				D1C64DCE21F2151E00136385 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C64DDA21F2151F00136385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C64DE321F2151F00136385 /* TetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C64DE521F2151F00136385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C64DEE21F2151F00136385 /* TetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1C64DE021F2151F00136385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C64DC921F2151D00136385 /* Tet */;
+			targetProxy = D1C64DDF21F2151F00136385 /* PBXContainerItemProxy */;
+		};
+		D1C64DEB21F2151F00136385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C64DC921F2151D00136385 /* Tet */;
+			targetProxy = D1C64DEA21F2151F00136385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1C64DD121F2151E00136385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C64DD221F2151E00136385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1C64DD621F2151F00136385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C64DD721F2151F00136385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1C64DF021F2151F00136385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1C64DF121F2151F00136385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1C64DF321F2151F00136385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZX782LB29;
+				INFOPLIST_FILE = Tet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Steven.Tet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1C64DF421F2151F00136385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZX782LB29;
+				INFOPLIST_FILE = Tet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Steven.Tet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1C64DF621F2151F00136385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZX782LB29;
+				INFOPLIST_FILE = TetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Steven.TetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tet.app/Tet";
+			};
+			name = Debug;
+		};
+		D1C64DF721F2151F00136385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZX782LB29;
+				INFOPLIST_FILE = TetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Steven.TetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tet.app/Tet";
+			};
+			name = Release;
+		};
+		D1C64DF921F2151F00136385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZX782LB29;
+				INFOPLIST_FILE = TetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Steven.TetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tet;
+			};
+			name = Debug;
+		};
+		D1C64DFA21F2151F00136385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZX782LB29;
+				INFOPLIST_FILE = TetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Steven.TetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1C64DC521F2151D00136385 /* Build configuration list for PBXProject "Tet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C64DF021F2151F00136385 /* Debug */,
+				D1C64DF121F2151F00136385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C64DF221F2151F00136385 /* Build configuration list for PBXNativeTarget "Tet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C64DF321F2151F00136385 /* Debug */,
+				D1C64DF421F2151F00136385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C64DF521F2151F00136385 /* Build configuration list for PBXNativeTarget "TetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C64DF621F2151F00136385 /* Debug */,
+				D1C64DF721F2151F00136385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C64DF821F2151F00136385 /* Build configuration list for PBXNativeTarget "TetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C64DF921F2151F00136385 /* Debug */,
+				D1C64DFA21F2151F00136385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1C64DC221F2151D00136385 /* Project object */;
+}
